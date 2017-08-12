@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.ross.cs504</groupId>
+        <artifactId>spring-cloud-nike-running</artifactId>
+        <version>1.0.0.BUILD-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>platform</artifactId>
+    <packaging>pom</packaging>
+    <name>Cloud Infrastructure Service</name>
+
+    <modules>
+        <module>eureka</module>
+        <module>hystrix-dashboard</module>
+    </modules>
+
+</project>
