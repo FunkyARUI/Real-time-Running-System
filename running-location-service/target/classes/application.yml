@@ -1,0 +1,5 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: running-location-service
